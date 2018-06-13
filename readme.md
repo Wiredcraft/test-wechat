@@ -1,35 +1,35 @@
-# Wiredcraft Full-stack Developer test
+# Wiredcraft WeChat Developer test
 
 Make sure you read **all** of this document carefully, and follow the guidelines in it.
 
 ## Context
 
-Build a typical product browser App including search and show detail.
+Build a typical WeChat mini-program. This particular mini-program lets the user search for products and display product details by clicking on the search results.
 
-Sorry no mock here, please make a simple and beautiful page that get the job done.
+No mock up, just try and create a simple search page that gets the job done.
 
 ## Step 1 User Story
 
-1. User opens the page and could see a list of products.
-2. User tap on seach bar at top and enter latters, product list will update in real time.
-3. User can tap on one product to see it's detail.
+1. User opens the page and can see a list of products with a search bar at the to of the page.
+2. User taps on the search bar and can enter search keywords. As keywords are entered, search results are updated.
+3. User taps on a search result and sees the product details page.
 
-## Requirements
+### Requirements
 
-### UI/UX
+#### UI/UX
 
-you can do whatever you think is good, but make sure it can cover Step 1 User Storys
+Keep the UX and UI simple. Try and style it according to the Starbucks UI kit: https://starbucks-china.github.io/starbucks-website/
 
-### APIs
+#### APIs
 
-Wiredcraft provides the API sepcs, you can use this for data integration.
-[API spec link]
+Use the following API specs for the search; xxx
 
 
-## Step 2 
-Question: If you want to make those APIs mentioned in Step 1 auth protected, what will you do?
+### Step 2 
 
-Show us with a sequence diagram or bullet points with detail steps.
+Let's assume we wanted in a second step to require WeChat authentication to access the search.
+
+Explain shortly how you would support such a feature with sequence diagram, wireframes or a couple paragraphs explaining the steps to develop it.
 
 ## What We Care About
 
