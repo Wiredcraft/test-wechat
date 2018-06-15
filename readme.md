@@ -12,7 +12,7 @@ No mock up, just try and create a simple search page that gets the job done.
 
 1. User opens the page and can see a empty page with a search bar at the top of the page.
 2. User taps on the search bar and can enter Organization name. As keywords are entered, search results are updated.
-3. User taps on a search result and sees the repo details page.
+3. User taps on a search result and sees the repo details page(including name/full_name/description/language/owner avatar).
 
 ### Requirements
 
