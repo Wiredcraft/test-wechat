@@ -4,15 +4,15 @@ Make sure you read **all** of this document carefully, and follow the guidelines
 
 ## Context
 
-Build a typical WeChat mini-program. This particular mini-program lets the user search for products and display product details by clicking on the search results.
+Build a typical WeChat mini-program. This particular mini-program lets the user list out public repos under Organization on Github and display repo details by click on the search result.
 
 No mock up, just try and create a simple search page that gets the job done.
 
 ## Step 1 User Story
 
-1. User opens the page and can see a list of products with a search bar at the to of the page.
-2. User taps on the search bar and can enter search keywords. As keywords are entered, search results are updated.
-3. User taps on a search result and sees the product details page.
+1. User opens the page and can see a empty page with a search bar at the top of the page.
+2. User taps on the search bar and can enter Organization name. As keywords are entered, search results are updated.
+3. User taps on a search result and sees the repo details page.
 
 ### Requirements
 
@@ -22,7 +22,7 @@ Keep the UX and UI simple. Try and style it according to the Starbucks UI kit: h
 
 #### APIs
 
-Use the following API specs for the search; xxx
+Use the following API specs for the search: https://developer.github.com/v3/
 
 
 ### Step 2 
