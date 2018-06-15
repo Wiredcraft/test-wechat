@@ -22,7 +22,7 @@ Keep the UX and UI simple. Try and style it according to the Starbucks UI kit: h
 
 #### APIs
 
-Use the following API specs for the search: https://developer.github.com/v3/
+Use the following API specs for the search: https://developer.github.com/v3/repos/#get
 
 
 ### Step 2 
