@@ -1,0 +1,43 @@
+/* pages/search.wxss */
+@import '../../wxss/main.wxss';
+
+.search {
+  position: relative;
+}
+
+.unfold-list {
+  position: absolute;
+  display: block;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  z-index: 35;
+  background-color: #fff;
+  border: 1px solid #d1d5da;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.unflod-list-item {
+  padding: 8px;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  white-space: inherit;
+  word-break: break-all;
+}
+
+.search input {
+  display: block;
+  height: 30px;
+  padding: 4px 0;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0;
+  box-sizing: border-box;
+  transition-property: border;
+  transition-duration: 0.2s;
+}

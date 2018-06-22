@@ -1,0 +1,15 @@
+<view class="page-body brick">
+  <view class="search">
+    <input type="text" class="text-input" bindinput="inputEvent" placeholder="Text input" />
+    <view wx:if="{{filterList.length}}" class="unfold-list">
+      <navigator wx:for="{{filterList}}" class="unflod-list-item" url='../searchDetail/searchDetail?fullName={{item.full_name}}'>
+        {{item.full_name}}
+      </navigator>
+    </view>
+    <view wx:if="{{searchText&&!filterList.length}}">
+      未查到相关数据
+    </view>
+    <view>
+    </view>
+  </view>
+</view>

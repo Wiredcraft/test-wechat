@@ -1,0 +1,20 @@
+<view class='page-body'>
+  <view class='info'>
+    <image mode='widthFix' src='{{userInfo.avatar_url}}'></image>
+    <view class='info-text'>
+      <text class='info-text-label'>name:</text>
+      <text>name:{{detail.name}}</text>
+      <text class='d-block'>
+            <text class='info-text-label'>full-name:</text> {{detail.full_name}}
+      </text>
+    </view>
+  </view>
+  <view class='detail-content'>
+  <view class='instructions'>
+    <text class='sub-label'>description:</text> {{detail.description}}
+  </view>
+  <view class='language'>
+    <text class='sub-label'>language:</text> {{detail.language}}
+  </view>
+  </view>
+</view>
