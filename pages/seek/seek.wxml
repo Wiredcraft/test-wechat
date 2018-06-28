@@ -1,0 +1,22 @@
+<view class="seekIndex">
+  <view class="loading {{loadingTrue?'active':''}}" id="loading-id"></view>
+  <view class="seekInput">
+    <input id="input-text" type="text" bindinput="inputEvent" bindblur="blur" bindfocus="focus"/>
+    <label for="input-text" class="{{seekLabelTrue?'':'seekLabel'}}">Text input</label>
+  </view>
+  <view class="seekValueCon">
+    <view wx:if="{{seekValueList.length}}" class="seekValueList">
+      <navigator wx:for="{{seekValueList}}" class="seekValueItem" url='../seekDetails/seekDetails?value={{item.full_name}}'>
+        <p class="title">
+          {{item.full_name}}
+        </p>  
+        <p wx:if="{{item.description}}" class="tips">
+          简介：{{item.description}}
+        </p>
+      </navigator>
+    </view>
+    <view class="noData" wx:if="{{seekText&&!seekValueList.length}}">
+      未搜索到相关数据
+    </view>
+  </view>
+</view>

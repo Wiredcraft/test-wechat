@@ -1,0 +1,20 @@
+<view class='seekDetailsCon'>
+  <view class="loading {{loadingTrue?'active':''}}" id="loading-id"></view>
+  <view class='seekDetails'>
+    <view class="imgCon">
+      <image src='{{detail.owner.avatar_url}}'></image>
+    </view>
+    <view class='seekDetailsText'>
+      <text>{{detail.name}}</text>
+      <text class='fullName'>{{detail.full_name}}</text>
+    </view>
+  </view>
+  <view class='detailCon'>
+    <view class='description'>
+      简介：{{detail.description}}
+    </view>
+    <view class='language'>
+      语言：{{detail.language}}
+    </view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/seek/seek",
+    "pages/seekDetails/seekDetails"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "搜索",
+    "navigationBarTextStyle":"black"
+  }
+}

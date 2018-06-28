@@ -1,0 +1,71 @@
+@import "./../../static/css/loading.wxss";
+/* loading End */
+
+
+.seekIndex .seekInput{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40rpx 20rpx 20rpx;
+  z-index: 99;
+  background-color: #fff;
+}
+.seekIndex .seekInput input{
+  background: none;
+  border: 0;
+  border-bottom: 1rpx solid rgba(0,0,0,0.12);
+  border-radius: 0;
+  box-sizing: border-box;
+  display: block;
+  padding: 18rpx 0;
+  height: 70rpx;
+  transition-property: border;
+  transition-duration: .2s;
+}
+.seekInput input:hover, .seekInput input:active, .seekInput input:focus {
+  border-color: #00A862;
+}
+.seekInput label {
+  left: 20rpx;
+  position: absolute;
+  top: 0rpx;
+  font-size: 14px;
+  transition-property: all;
+  transition-duration: .2s;
+}
+label.seekLabel{
+  color: rgba(0, 0, 0, 0.38);
+  top: 50rpx;
+  font-size: inherit;
+
+}
+/* seekInput End */
+
+.seekValueCon{
+  padding: 120rpx 20rpx 0;
+}
+.seekValueCon .seekValueItem{
+  background: #FFF;
+  border-radius: 3rpx;
+  box-shadow: 0 1rpx 1rpx 1rpx rgba(0,0,0,0.12);
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding: 18rpx;
+  margin-top: 18rpx;
+}
+.seekValueCon .seekValueItem p{
+  display: block;
+}
+
+.seekValueCon .seekValueItem .tips{
+  padding:10rpx 0;
+  color: rgba(0,0,0,0.87);
+  font-size: 12px;
+}
+
+
+
+
