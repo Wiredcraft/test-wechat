@@ -9,8 +9,9 @@
 	},
 	"miniprogramRoot": "./dist/",
 	"compileType": "miniprogram",
-	"appid": "touristappid",
+	"appid": "wx04bf00edaeb8f28a",
 	"projectname": "mp-demo",
+	"libVersion": "2.1.1",
 	"condition": {
 		"search": {
 			"current": -1,
