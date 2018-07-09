@@ -10,7 +10,7 @@
 	"miniprogramRoot": "./dist/",
 	"compileType": "miniprogram",
 	"appid": "wx04bf00edaeb8f28a",
-	"projectname": "mp-demo",
+	"projectname": "wechat-test-demo",
 	"libVersion": "2.1.1",
 	"condition": {
 		"search": {
