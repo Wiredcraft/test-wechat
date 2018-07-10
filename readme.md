@@ -25,7 +25,7 @@ Keep the UX and UI simple. Try and style it according to the Starbucks UI kit: h
 Use the following API specs for the search: https://developer.github.com/v3/repos/#get
 
 
-### Step 2 
+## Step 2 
 
 Let's assume we wanted in a second step to require WeChat authentication to access the search.
 
