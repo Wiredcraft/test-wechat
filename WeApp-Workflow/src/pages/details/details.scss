@@ -1,0 +1,29 @@
+// 支持文件
+@import "../../assets/scss/support";
+
+.details__container {
+	.details__avatar {
+		width: 100px;
+		height: 100px;
+		margin: 10px auto;
+		border: 1px solid lightgray;
+		image {
+			width: 100px;
+			height: 100px;
+		}
+	}
+	.details__row_wrapper {
+		padding: 0 10px;
+		.details__row {
+			display: flex;
+			padding: 10px 0;
+			border-bottom: 1px solid lightgray;
+			.details__row_label {
+				padding-right: 10px;
+				width: 100px;
+				text-align: right;
+				color: forestgreen;
+			}
+		}
+	}
+}

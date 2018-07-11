@@ -1,0 +1,24 @@
+<view class="details__container">
+	<view class="details__avatar" wx:if='{{repo.owner.avatar_url}}'>
+		<image src='{{repo.owner.avatar_url}}'></image>
+	</view>
+
+	<view class="details__row_wrapper">
+		<view class="details__row" wx:if='{{repo.name}}'>
+			<view class="details__row_label">Name:</view>
+			<view class="details__row_content">{{repo.name}}</view>
+		</view>
+		<view class="details__row" wx:if='{{repo.full_name}}'>
+			<view class="details__row_label">Full Name: </view>
+			<view class="details__row_content">{{repo.full_name}}</view>
+		</view>
+		<view class="details__row" wx:if='{{repo.description}}'>
+			<view class="details__row_label">Description: </view>
+			<view class="details__row_content">{{repo.description}}</view>
+		</view>
+		<view class="details__row" wx:if='{{repo.language}}'>
+			<view class="details__row_label">Language: </view>
+			<view class="details__row_content">{{repo.language}}</view>
+		</view>
+	</view>
+</view>

@@ -25,8 +25,9 @@ Page({
 				mask: true
 			})
 
-			this.keyword = e.detail.value
-			getOrgRepos(this.keyword).then(res => {
+			let keyword = e.detail.value
+			this.setData({keyword: keyword})
+			getOrgRepos(keyword).then(res => {
 				this.setData({orgRepos: res.data.map(item => item.name)})
 				console.log(this.orgRepos)
 				wx.hideLoading()

@@ -2,7 +2,6 @@ var Fly = require("../libs/flyio")
 var fly = new Fly
 fly.config.timeout = 20000
 fly.config.baseURL = 'https://api.github.com/'
-// fly.config.baseURL = 'https://www.baidu.com/'
 
 
 const getOrgRepos = (org) => {
