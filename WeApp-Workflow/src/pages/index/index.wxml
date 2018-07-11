@@ -4,7 +4,7 @@
 		<input bindinput="searchRepos" placeholder="Enter Organization Name"/>
 	</view>
 	<view class="index__search_result">
-		<navigator wx:for='{{orgRepos}}' wx:key="id" url='../details/details?name={{item}}'>
+		<navigator wx:for='{{orgRepos}}' wx:key="id" url='../details/details?owner={{keyword}}&repo={{item}}'>
 		<view class="index__search_result_item">
 			{{item}}
 		</view>

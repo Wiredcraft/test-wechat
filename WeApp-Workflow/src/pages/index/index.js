@@ -1,7 +1,6 @@
 //index.js
 
 import { getOrgRepos } from '../../apis/index'
-var regeneratorRuntime = require("../../libs/regenerator-runtime/runtime")
 
 //获取应用实例
 var app = getApp()

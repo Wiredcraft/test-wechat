@@ -10,8 +10,10 @@
 		border: solid gray 1px;
 	}
 	.index__search_result {
+		margin: 0 30px;
+		max-height: 80vh;
+		overflow-y: scroll;
 		.index__search_result_item {
-			margin: 0 30px;
 			background: #f5f5f5;
 			padding: 10px 20px;
 			border-bottom: solid gray 1px;
