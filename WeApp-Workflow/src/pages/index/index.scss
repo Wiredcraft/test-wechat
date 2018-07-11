@@ -2,4 +2,20 @@
 @import "../../assets/scss/support";
 
 .index {
+	.index__search_bar {
+		margin: 0 30px;
+		background: #ffffff;
+		text-align: left;
+		padding: 5px 0 5px 20px;
+		border: solid gray 1px;
+	}
+	.index__search_result {
+		.index__search_result_item {
+			margin: 0 30px;
+			background: #f5f5f5;
+			padding: 10px 20px;
+			border-bottom: solid gray 1px;
+			text-align: left;
+		}
+	}
 }

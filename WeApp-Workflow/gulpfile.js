@@ -193,8 +193,8 @@ var watchHandler = function (type, file) {
 		} else {
 			imageMin();
 			assetsImgMin();
-			qcloudCDN();
-			wxmlImgRewrite();
+			// qcloudCDN();
+			// wxmlImgRewrite();
 		}
 	}
 
@@ -205,7 +205,7 @@ var watchHandler = function (type, file) {
 			del([tmp]);
 		} else {
 			copyWXML();
-			wxmlImgRewrite();
+			// wxmlImgRewrite();
 		}
 	}
 

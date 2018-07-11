@@ -1,37 +1,20 @@
-var regeneratorRuntime = require("../libs/regenerator-runtime/runtime.js")
+var Fly = require("../libs/flyio")
+var fly = new Fly
+fly.config.timeout = 20000
+fly.config.baseURL = 'https://api.github.com/'
+// fly.config.baseURL = 'https://www.baidu.com/'
 
-const wxGet = async (url) => {
-	await wx.request({
-		url: url,
-		method: 'GET',
-		header: { 'Content-Type': 'application/json' },
-		success: (res) => {
-			return res
-		},
-		error: (e) => {
-			return e
-		}
-	})
+
+const getOrgRepos = (org) => {
+	return fly.get(`orgs/${org}/repos`)
 }
 
-const wxPost = async (url, data) => {
-	let postData = data
-
-	await wx.request({
-		url: url,
-		data: postData,
-		method: 'POST',
-		header: { 'Content-Type': 'application/json' },
-		success: (res) => {
-			return res
-		},
-		error: (e) => {
-			return e
-		}
-	})
+const getReposDetails = (owner, repo) => {
+	return fly.get(`repos/${owner}/${repo}`)
 }
+
 
 module.exports = {
-	wxGet: wxGet,
-	wxPost: wxPost
+	getOrgRepos: getOrgRepos,
+	getReposDetails: getReposDetails
 }

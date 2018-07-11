@@ -1,7 +1,13 @@
 <!--index.wxml-->
 <view class="app index">
-
-	<view class="index__inner">
-		<button bindtap="clickTest">{{ n }}</button>
+	<view class="index__search_bar">
+		<input bindinput="searchRepos" placeholder="Enter Organization Name"/>
+	</view>
+	<view class="index__search_result">
+		<navigator wx:for='{{orgRepos}}' wx:key="id" url='../details/details?name={{item}}'>
+		<view class="index__search_result_item">
+			{{item}}
+		</view>
+		</navigator>
 	</view>
 </view>
