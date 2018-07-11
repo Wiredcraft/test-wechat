@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="app index">
+
+	<view class="index__inner">
+		<button bindtap="clickTest">{{ n }}</button>
+	</view>
+</view>
