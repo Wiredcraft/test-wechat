@@ -1,0 +1,80 @@
+@import "../../common/base";
+
+.dot{
+  animation: waiting .3s infinite alternate;
+  background: #00A862;
+  border-radius: 50%;
+  display: inline-block;
+  height: 32px;
+  margin: 0 12px;
+  vertical-align: middle;
+  width: 32px;
+}
+
+@keyframes waiting {
+  0% {
+    opacity: 1;
+    transform: scale(1.5)
+  }
+
+  100% {
+    opacity: 0.4;
+    transform: scale(1)
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.ui-load-status{
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  &-loading{
+
+    display: inline-block;
+    text-align: center;
+
+    &-dot-1{
+      @extend .dot
+    }
+    &-dot-2{
+      animation-delay: .1s;
+      @extend .dot
+    }
+    &-dot-3{
+      animation-delay: .2s;
+      @extend .dot
+    }
+  }
+
+  &-no-found{
+    animation: fadeIn .8s;
+  }
+
+  &-text-1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 1.6;
+    color: $black-4;
+  }
+  &-text-2{
+    text-align: center;
+    font-size: $font-size-3;
+    font-weight: 100;
+    color: $black-4;
+  }
+}

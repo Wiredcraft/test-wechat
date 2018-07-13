@@ -1,0 +1,62 @@
+@import "../../common/base";
+
+$input-font-size: $font-size-3;
+$placeholder-weight: 200;
+$placeholder-color: rgba(0,0,0,0.38);
+
+.ui-search-input{
+
+  background: $white;
+
+  &-wrap{
+    position: relative;
+    padding-top: 75px;
+    width: 100%;
+  }
+
+  &-inp{
+
+    border-bottom: 1px solid $black-6;
+    box-sizing: border-box;
+    padding: 10px 0 18px;
+    height: 95px;
+    margin: 0 10px;
+
+    font-size: $input-font-size;
+    line-height: $input-font-size;
+    font-weight: 700;
+
+    &-is-focus{
+      border-bottom: 1px solid $primary;
+    }
+
+    &-placeholder{
+      font-weight: $placeholder-weight;
+      color: transparent;
+    }
+
+  }
+
+  &-lab{
+
+    position: absolute;
+    left: 10px;
+    top: 90px;
+    font-size: $input-font-size;
+    font-weight: $placeholder-weight;
+
+    transition-property: color, font-size, top;
+    transition-duration: .2s;
+
+    color: $placeholder-color;
+
+    &-is-top{
+      top: 12px;
+      font-size: $font-size-4;
+      transition-property: color, font-size, top;
+      transition-duration: .2s;
+    }
+  }
+
+
+}

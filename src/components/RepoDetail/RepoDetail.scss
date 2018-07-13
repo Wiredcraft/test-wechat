@@ -1,0 +1,54 @@
+@import "../../common/base";
+
+.ui-repo-detail{
+  border: 1px solid $black-6;
+  border-radius: 7px;
+  box-shadow: 0 1px 1px 1px rgba(0,0,0,0.12);
+
+  &-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    padding: 50px 40px 30px;
+    border-bottom: 1px solid $black-6;
+    line-height: 1;
+  }
+  &-section{
+    padding: 40px 40px 60px;
+  }
+
+  &-full-name{
+    margin-bottom: 20px;
+    font-size: $font-size-4;
+  }
+  &-avatar{
+    margin-left: 14px;
+    height: $font-size-5;
+    width: $font-size-5;
+    border-radius: 6px;
+    position: relative;
+    top:8px;
+  }
+  &-owner{
+    font-size: $font-size-5;
+    font-weight: 100;
+    color: $black-3;
+    white-space: nowrap;
+  }
+
+  &-name{
+    font-size: $font-size-1;
+  }
+  &-language{
+    margin: 10px 0;
+    font-size: $font-size-5;
+    font-weight: 100;
+    font-style: italic;
+    color: $black-3;
+  }
+  &-description{
+    margin-top: 40px;
+  }
+}

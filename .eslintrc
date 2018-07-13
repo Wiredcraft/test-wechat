@@ -1,0 +1,13 @@
+{
+  "extends": ["taro"],
+  "rules": {
+    "jsx-quotes": [2, "prefer-double"],
+    "no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
+    "react/jsx-curly-spacing": false,
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
+    "react/jsx-space-before-closing": ["never"],
+    "react/jsx-closing-bracket-location":["never"],
+    "react/jsx-indent-props":["never"]
+  },
+  "parser": "babel-eslint"
+}
