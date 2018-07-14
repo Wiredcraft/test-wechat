@@ -22,8 +22,6 @@ class RepoList extends Component {
     }
     render () {
         const { repos } = this.props;
-
-
         return (
             <View className={ genClassNames() }>
                 {
@@ -33,7 +31,6 @@ class RepoList extends Component {
                 }
             </View>
         )
-
     }
 }
 

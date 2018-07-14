@@ -1,11 +1,9 @@
 @import "../../common/base";
 
 .ui-repo-list{
-
   &-repo{
-
     padding: 30px 40px;
-    border-bottom: 1px solid $black-6;
+    border-top: 1px solid $black-6;
     background: #fff;
     transition: background-color .35s;
 
@@ -25,7 +23,5 @@
       color: $black-3;
       line-height: 1.4;
     }
-
   }
-
 }

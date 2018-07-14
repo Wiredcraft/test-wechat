@@ -9,7 +9,7 @@
     "dev": "npm run prod -- --watch",
     "test": "node_modules/.bin/jest && exit 0"
   },
-  "author": "",
+  "author": "Ansel Zhang",
   "license": "MIT",
   "dependencies": {
     "@tarojs/components": "^0.0.68",
