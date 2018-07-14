@@ -11,7 +11,6 @@ export default class RepoItem extends Component{
 
     static propTypes = {
         repo: PropTypes.object,
-        url: PropTypes.string
     };
 
 

@@ -9,6 +9,7 @@ import './LoadStatus.scss'
 const COMPONENT_CLASS_NAME = 'ui-load-status';
 const genClassNames = classNamesGeneration( COMPONENT_CLASS_NAME );
 
+
 export default class LoadStatus extends Component{
 
     static propTypes = {

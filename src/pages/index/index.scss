@@ -9,6 +9,7 @@
   flex-direction: column;
   .ui-search-input{
     position: sticky;
+    z-index: 1;
     top:0;
   }
   .ui-load-status{

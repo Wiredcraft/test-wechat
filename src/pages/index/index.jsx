@@ -8,10 +8,16 @@ import loadStatus from '../../confs/loadStatus';
 
 import '../../components/LoadStatus/LoadStatus.scss'
 
-
 import api from '../../services/api'
 import './index.scss'
 
+
+
+/**
+ * format the repos data to [{name, full_name, description, language, avatar_url }...]
+ * @param {array}  repos repo data
+ * @return {array}
+ */
 const formatReposData = (repos)=>{
 
     const url = '../detail/detail';
@@ -51,6 +57,9 @@ export default class Index extends Component {
         }
     }
 
+    /**
+     * clear the data to keep the result match searching.
+     */
     clear (){
         this.setState({
             orgsData: []

@@ -28,7 +28,7 @@ class RepoList extends Component {
             <View className={ genClassNames() }>
                 {
                     repos.map((repo, index)=>
-                        <RepoItem repo={ repo } key={index} url={url} />
+                        <RepoItem repo={ repo } key={index} />
                     )
                 }
             </View>
@@ -36,6 +36,5 @@ class RepoList extends Component {
 
     }
 }
-
 
 export default RepoList

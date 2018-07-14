@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52a8d2a8-2d62-4f39-9306-41847a05a9e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/SearchInput/SearchInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoadStatus/LoadStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoadStatus/LoadStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RepoList/RepoItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RepoList/RepoItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RepoList/RepoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RepoList/RepoList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,13 +27,17 @@
     <session id="-1642793125">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="eslintrc" value="2" />
+          <entry key="babelrc" value="1" />
+          <entry key="editorconfig" value="1" />
+          <entry key="eslintrc" value="5" />
+          <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
-          <entry key="js" value="35" />
-          <entry key="json" value="7" />
-          <entry key="jsx" value="40" />
-          <entry key="scss" value="46" />
-          <entry key="ts" value="5" />
+          <entry key="js" value="46" />
+          <entry key="json" value="12" />
+          <entry key="jsx" value="62" />
+          <entry key="md" value="2" />
+          <entry key="scss" value="52" />
+          <entry key="ts" value="7" />
           <entry key="tsx" value="3" />
           <entry key="wxml" value="1" />
           <entry key="wxss" value="1" />
@@ -32,33 +46,39 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
+          <entry key="Git file" value="1" />
           <entry key="HTML" value="3" />
-          <entry key="JSON" value="8" />
-          <entry key="JSX Harmony" value="40" />
-          <entry key="JavaScript" value="35" />
-          <entry key="SCSS" value="46" />
-          <entry key="TypeScript" value="5" />
+          <entry key="JSON" value="17" />
+          <entry key="JSX Harmony" value="62" />
+          <entry key="JavaScript" value="46" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SCSS" value="52" />
+          <entry key="TypeScript" value="7" />
           <entry key="TypeScript JSX" value="3" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="eslintrc" value="189" />
-          <entry key="js" value="2696" />
-          <entry key="json" value="6" />
-          <entry key="jsx" value="21153" />
-          <entry key="scss" value="6954" />
+          <entry key="babelrc" value="6" />
+          <entry key="eslintrc" value="409" />
+          <entry key="js" value="4442" />
+          <entry key="json" value="201" />
+          <entry key="jsx" value="22928" />
+          <entry key="md" value="16" />
+          <entry key="scss" value="6980" />
           <entry key="ts" value="7" />
           <entry key="tsx" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="189" />
-          <entry key="JSX Harmony" value="21153" />
-          <entry key="JavaScript" value="2696" />
-          <entry key="SCSS" value="6954" />
+          <entry key="JSON" value="610" />
+          <entry key="JSX Harmony" value="22928" />
+          <entry key="JavaScript" value="4442" />
+          <entry key="Markdown" value="16" />
+          <entry key="SCSS" value="6980" />
           <entry key="TypeScript" value="7" />
           <entry key="TypeScript JSX" value="23" />
           <entry key="tsconfig" value="6" />
@@ -71,11 +91,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/index/index.jsx">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/util.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/RepoList/RepoList.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.eslintrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/RepoList/RepoItem.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/SearchInput/SearchInput.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/detail/detail.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/index/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-762">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -86,8 +181,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/LoadStatus/LoadStatus.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -112,6 +219,8 @@
       <find>Taro</find>
       <find>con</find>
       <find>console</find>
+      <find>eslint</find>
+      <find>babel-polyfill</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,7 +231,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/app.tsx" />
-        <option value="$PROJECT_DIR$/.eslintrc" />
         <option value="$PROJECT_DIR$/src/hocs/FocusHoc.jsx" />
         <option value="$PROJECT_DIR$/src/hocs/focusHoc.jsx" />
         <option value="$PROJECT_DIR$/src/lib/base.scss" />
@@ -131,15 +239,9 @@
         <option value="$PROJECT_DIR$/src/services/getRepos.js" />
         <option value="$PROJECT_DIR$/src/confs/urls.js" />
         <option value="$PROJECT_DIR$/src/utils/util.js" />
-        <option value="$PROJECT_DIR$/src/components/RepoList/RepoItem.jsx" />
         <option value="$PROJECT_DIR$/src/pages/detail/index.jsx" />
         <option value="$PROJECT_DIR$/src/common/base.scss" />
         <option value="$PROJECT_DIR$/src/app.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/detail/detail.jsx" />
-        <option value="$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.jsx" />
-        <option value="$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.scss" />
-        <option value="$PROJECT_DIR$/src/components/RepoList/RepoList.jsx" />
-        <option value="$PROJECT_DIR$/src/components/SearchInput/SearchInput.jsx" />
         <option value="$PROJECT_DIR$/src/components/SearchInput/SearchInput.scss" />
         <option value="$PROJECT_DIR$/src/components/RepoList/RepoList.scss" />
         <option value="$PROJECT_DIR$/src/components/PageStates/PageState.jsx" />
@@ -147,10 +249,22 @@
         <option value="$PROJECT_DIR$/src/confs/loadStatus.js" />
         <option value="$PROJECT_DIR$/src/pages/detail/index.scss" />
         <option value="$PROJECT_DIR$/src/app.scss" />
-        <option value="$PROJECT_DIR$/src/pages/index/index.scss" />
         <option value="$PROJECT_DIR$/src/components/LoadStatus/LoadStatus.scss" />
-        <option value="$PROJECT_DIR$/src/components/LoadStatus/LoadStatus.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/index/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.scss" />
+        <option value="$PROJECT_DIR$/src/components/RepoList/RepoList.jsx" />
+        <option value="$PROJECT_DIR$/.eslintrc" />
+        <option value="$PROJECT_DIR$/src/pages/detail/detail.jsx" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/jest.config.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/utils/__tests__/util.spec.js" />
         <option value="$PROJECT_DIR$/src/pages/index/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/LoadStatus/LoadStatus.jsx" />
+        <option value="$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.jsx" />
+        <option value="$PROJECT_DIR$/src/components/RepoList/RepoItem.jsx" />
+        <option value="$PROJECT_DIR$/src/components/SearchInput/SearchInput.jsx" />
       </list>
     </option>
   </component>
@@ -208,6 +322,46 @@
               <item name="test-wechat" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-wechat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-wechat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="LoadStatus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-wechat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="RepoDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-wechat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="RepoList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-wechat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchInput" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-wechat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="confs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-wechat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,6 +403,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/SearchInput" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,11 +431,12 @@
       <updated>1531280479276</updated>
       <workItem from="1531280480832" duration="52924000" />
       <workItem from="1531451436821" duration="20828000" />
+      <workItem from="1531551930096" duration="6314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73752000" />
+    <option name="totallyTimeSpent" value="87045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -333,39 +491,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.full.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="4194" column="4" selection-start-line="4194" selection-start-column="4" selection-end-line="4194" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index/index.tsx" />
     <entry file="file://$PROJECT_DIR$/config/prod.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tsconfig.json" />
     <entry file="file://$PROJECT_DIR$/src/app.tsx" />
-    <entry file="file://$PROJECT_DIR$/node_modules/classnames/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/classnames/index.js" />
     <entry file="file://$PROJECT_DIR$/src/hocs/focusHoc.jsx" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -393,30 +529,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@tarojs/components/types/Video.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@tarojs/components/types/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@tarojs/taro/types/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@tarojs/components/types/Video.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@tarojs/taro/types/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/dist/pages/detail/detail.wxml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -441,20 +555,6 @@
     <entry file="file://$PROJECT_DIR$/dist/app.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -462,57 +562,6 @@
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RepoList/RepoList.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/confs/urls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RepoList/RepoItem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="22" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SearchInput/SearchInput.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/confs/loadStatus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -537,20 +586,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RepoList/RepoList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/detail/detail.jsx">
+    <entry file="file://$PROJECT_DIR$/node_modules/@tarojs/components/types/View.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@tarojs/components/types/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/common/base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -561,20 +605,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index/index.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/base.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="670">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LoadStatus/LoadStatus.jsx">
+    <entry file="file://$PROJECT_DIR$/src/confs/urls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/confs/loadStatus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RepoList/RepoList.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/eslint/lib/config/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="108" column="122" selection-start-line="108" selection-start-column="122" selection-end-line="108" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/__tests__/util.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/detail/detail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
@@ -583,10 +721,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-762">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LoadStatus/LoadStatus.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RepoDetail/RepoDetail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RepoList/RepoItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RepoList/RepoList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SearchInput/SearchInput.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>

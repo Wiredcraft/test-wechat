@@ -1,13 +1,24 @@
 {
-  "extends": ["taro"],
+  "extends": ["taro", "plugin:jest/recommended"],
   "rules": {
+
     "jsx-quotes": [2, "prefer-double"],
     "no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
     "react/jsx-curly-spacing": false,
     "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
     "react/jsx-space-before-closing": ["never"],
     "react/jsx-closing-bracket-location":["never"],
-    "react/jsx-indent-props":["never"]
+    "react/jsx-indent-props":["never"],
+
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error"
   },
+  "env": {
+    "jest/globals": true
+  },
+  "plugins": ["jest"],
   "parser": "babel-eslint"
 }

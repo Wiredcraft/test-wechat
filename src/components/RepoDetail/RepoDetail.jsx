@@ -8,7 +8,6 @@ import "./RepoDetail.scss"
 const COMPONENT_CLASS_NAME = 'ui-repo-detail';
 const genClassNames = classNamesGeneration( COMPONENT_CLASS_NAME );
 
-
 export default class RepoDetail extends Component{
 
     static propTypes = {
@@ -20,9 +19,7 @@ export default class RepoDetail extends Component{
 
     render(){
 
-
         const {repo} = this.props;
-        console.log('detail',repo);
 
         return (
             <View className={genClassNames()}>
