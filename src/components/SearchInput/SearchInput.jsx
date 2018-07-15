@@ -60,7 +60,7 @@ class SearchInput extends Component {
                        onFocus={this.handleFocus.bind(this)}
                        onBlur={this.handleBlur.bind(this)}
                        id={ inputID }
-                       onConfirm={this.handleConfirm}
+                       onConfirm={this.handleConfirm.bind(this)}
                        placeholder-class={ genClassNames('inp-placeholder') }
                        className={ genClassNames({
                            inp: true,
