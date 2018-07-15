@@ -25,6 +25,6 @@ npm i
 
 ## Step 2
 
-![wechat-authentication](../doc/wechat-authentication.png)
+![wechat-authentication](https://raw.githubusercontent.com/ianva/test-wechat/master/doc/wechat-authentication.png)
 
 
