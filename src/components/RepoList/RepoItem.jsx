@@ -10,7 +10,9 @@ const genClassNames = classNamesGeneration( COMPONENT_CLASS_NAME );
 export default class RepoItem extends Component{
 
     static propTypes = {
-        repo: PropTypes.object,
+        url: PropTypes.string,
+        name: PropTypes.string,
+        description: PropTypes.string
     };
 
 
@@ -19,13 +21,13 @@ export default class RepoItem extends Component{
     }
     render(){
 
-        const {repo} = this.props;
+        const {url, name, description} = this.props;
 
         return (
-            <Navigator url={ repo.url }>
+            <Navigator url={ url }>
                 <View className={genClassNames()} hoverClass={genClassNames('hover')}>
-                    <View className={genClassNames('title')}><Text>{ repo.name }</Text></View>
-                    <View className={genClassNames('description')}><Text>{ repo.description }</Text></View>
+                    <View className={genClassNames('title')}><Text>{ name }</Text></View>
+                    <View className={genClassNames('description')}><Text>{ description }</Text></View>
                 </View>
             </Navigator>
         )

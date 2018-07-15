@@ -14,7 +14,11 @@ const genClassNames = classNamesGeneration( COMPONENT_CLASS_NAME );
 class RepoList extends Component {
 
     static propTypes = {
-        repos: PropTypes.array
+        repos: PropTypes.arrayOf(PropTypes.shape({
+            url: PropTypes.string,
+            name: PropTypes.string,
+            description: PropTypes.string
+        }))
     };
 
     constructor(props) {
@@ -26,7 +30,7 @@ class RepoList extends Component {
             <View className={ genClassNames() }>
                 {
                     repos.map((repo, index)=>
-                        <RepoItem repo={ repo } key={index} />
+                        <RepoItem name={ repo.name } url={repo.url} description={repo.description} key={index} />
                     )
                 }
             </View>

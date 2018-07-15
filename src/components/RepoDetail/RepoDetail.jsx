@@ -11,8 +11,15 @@ const genClassNames = classNamesGeneration( COMPONENT_CLASS_NAME );
 export default class RepoDetail extends Component{
 
     static propTypes = {
-        repo: PropTypes.object,
+        repo: PropTypes.shape({
+            name: PropTypes.string,
+            full_name: PropTypes.string,
+            avatar_url: PropTypes.string,
+            language: PropTypes.string,
+            description: PropTypes.string
+        })
     };
+
     constructor(props) {
         super(props)
     }

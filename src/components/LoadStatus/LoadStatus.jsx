@@ -3,7 +3,7 @@ import { View } from '@tarojs/components'
 import {PropTypes} from 'prop-types'
 import {classNamesGeneration} from "../../utils/util";
 
-import loadStatus from '../../confs/loadStatus';
+import LOAD_STATUS from '../../confs/loadStatus';
 import './LoadStatus.scss'
 
 const COMPONENT_CLASS_NAME = 'ui-load-status';
@@ -26,7 +26,7 @@ export default class LoadStatus extends Component{
         return (
             <View className={genClassNames()}>
                 {
-                    status === loadStatus.loading
+                    status === LOAD_STATUS.loading
                         ? <View class={genClassNames('loading')}>
                             <View class={genClassNames('loading-dot-1')}/>
                             <View class={genClassNames('loading-dot-2')}/>
@@ -35,7 +35,7 @@ export default class LoadStatus extends Component{
                         : null
                 }
                 {
-                    status === loadStatus.noFound
+                    status === LOAD_STATUS.noFound
                         ? <View class={genClassNames('no-found')}>
                             <View class={genClassNames('no-found')}>
                                 <View class={genClassNames('text-1')}>Oops!</View>
