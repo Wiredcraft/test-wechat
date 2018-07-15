@@ -57,8 +57,8 @@ class SearchInput extends Component {
                        })}
                        for={ inputID }>{ this.props.placeholder }</Label>
                 <Input placeholder={ this.props.placeholder }
-                       onFocus={this.handleFocus}
-                       onBlur={this.handleBlur}
+                       onFocus={this.handleFocus.bind(this)}
+                       onBlur={this.handleBlur.bind(this)}
                        id={ inputID }
                        onConfirm={this.handleConfirm}
                        placeholder-class={ genClassNames('inp-placeholder') }
