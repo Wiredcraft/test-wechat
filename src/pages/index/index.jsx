@@ -57,9 +57,6 @@ export default class Index extends Component {
     }
     handleConfirm(e) {
 
-        console.log(this);
-
-
         const val = e.currentTarget.value;
         const self = this;
 
