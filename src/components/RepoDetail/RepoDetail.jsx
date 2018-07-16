@@ -1,4 +1,4 @@
-import { Taro, Component } from '@tarojs/taro'
+import Taro, { Component } from '@tarojs/taro'
 import {PropTypes} from 'prop-types'
 import { View, Text, Image } from '@tarojs/components'
 import {classNamesGeneration} from "../../utils/util";
